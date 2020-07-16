@@ -20,5 +20,9 @@ class DataSource: UITableViewDiffableDataSource<Category, Item> {
         else {
             return Category.allCases[section].rawValue
         }
-    }  
+    }
+    
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true 
+    }
 }

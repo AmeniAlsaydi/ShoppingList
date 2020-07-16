@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		B767DF8224BF46FE00084C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF8124BF46FE00084C11 /* AppDelegate.swift */; };
 		B767DF8424BF46FE00084C11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF8324BF46FE00084C11 /* SceneDelegate.swift */; };
-		B767DF8624BF46FE00084C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF8524BF46FE00084C11 /* ViewController.swift */; };
+		B767DF8624BF46FE00084C11 /* ItemFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF8524BF46FE00084C11 /* ItemFeedViewController.swift */; };
 		B767DF8924BF46FE00084C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767DF8724BF46FE00084C11 /* Main.storyboard */; };
 		B767DF8B24BF470100084C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B767DF8A24BF470100084C11 /* Assets.xcassets */; };
 		B767DF8E24BF470100084C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B767DF8C24BF470100084C11 /* LaunchScreen.storyboard */; };
 		B767DF9624BF47A800084C11 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF9524BF47A800084C11 /* Category.swift */; };
 		B767DF9824BF487700084C11 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF9724BF487700084C11 /* Item.swift */; };
 		B767DF9A24BF4AF600084C11 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B767DF9924BF4AF600084C11 /* Datasource.swift */; };
+		B7ADCE8E24C09D17002EE7F1 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ADCE8D24C09D17002EE7F1 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B767DF7E24BF46FE00084C11 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B767DF8124BF46FE00084C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B767DF8324BF46FE00084C11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B767DF8524BF46FE00084C11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B767DF8524BF46FE00084C11 /* ItemFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFeedViewController.swift; sourceTree = "<group>"; };
 		B767DF8824BF46FE00084C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B767DF8A24BF470100084C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B767DF8D24BF470100084C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		B767DF9524BF47A800084C11 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		B767DF9724BF487700084C11 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B767DF9924BF4AF600084C11 /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		B7ADCE8D24C09D17002EE7F1 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,9 @@
 			children = (
 				B767DF8124BF46FE00084C11 /* AppDelegate.swift */,
 				B767DF8324BF46FE00084C11 /* SceneDelegate.swift */,
-				B767DF8524BF46FE00084C11 /* ViewController.swift */,
+				B767DF8524BF46FE00084C11 /* ItemFeedViewController.swift */,
 				B767DF9524BF47A800084C11 /* Category.swift */,
+				B7ADCE8D24C09D17002EE7F1 /* AddItemViewController.swift */,
 				B767DF9924BF4AF600084C11 /* Datasource.swift */,
 				B767DF9724BF487700084C11 /* Item.swift */,
 				B767DF8724BF46FE00084C11 /* Main.storyboard */,
@@ -149,8 +152,9 @@
 			files = (
 				B767DF9A24BF4AF600084C11 /* Datasource.swift in Sources */,
 				B767DF9824BF487700084C11 /* Item.swift in Sources */,
-				B767DF8624BF46FE00084C11 /* ViewController.swift in Sources */,
+				B767DF8624BF46FE00084C11 /* ItemFeedViewController.swift in Sources */,
 				B767DF8224BF46FE00084C11 /* AppDelegate.swift in Sources */,
+				B7ADCE8E24C09D17002EE7F1 /* AddItemViewController.swift in Sources */,
 				B767DF8424BF46FE00084C11 /* SceneDelegate.swift in Sources */,
 				B767DF9624BF47A800084C11 /* Category.swift in Sources */,
 			);
